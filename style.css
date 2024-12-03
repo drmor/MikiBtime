@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	background:#f6f7f8;
+}
+header{
+	position: absolute;
+	width: 100%;
+}
+table tr{
+	border: 3px solid black;
+}
+.list{
+  display: inline-block;
+  margin-right: 10px;
+}
+.logo{
+	font-family: franklin gothic medium;
+	font-size: 50px;
+	color: Black;
+	margin:20px;
+	transition: margin 0.5s ease-out;
+}
+.logo:hover{
+	margin-top: 15px;
+}
+.under_logo_text{
+	color: #f6f7f8;
+	font-family: century gothic;
+	font-size: 24px;
+	width: 100%;
+}
+.logo:hover .under_logo_text{
+	color: black;
+	transition: all 1s ease-in-out;
+}
+.list{
+	padding-top: 10%;
+	width: 100%;
+	font-family: century gothic;
+	word-spacing: 150px;
+}
+.list a{
+	text-decoration: none;
+	color: #686D76;
+}
+.list a:hover{
+	color: #DC5F00;
+}
+.img_card{
+	height: 300px;
+}
+.card_info{
+	margin-left: 5%;
+	margin-top: -10%;
+	font-family: century gothic;
+}
+.card_info a{
+	background-color: #686D76;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+.card_info a:hover{
+	background-color: #DC5F00;
+	transition: 0.1s;
+}
+.main_text{
+	font-family: fantasy;
+	padding: 130px;
+}
+.main_text b{
+	font-size: 40px;
+}
